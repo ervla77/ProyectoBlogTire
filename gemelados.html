@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Neumaticos OTR</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media-queries.css">
+    <link rel="stylesheet" href="./css/font/flaticon.css">
+</head>
+<body>
+    <header>
+        <section class="header-icons-container">
+            <div class="icons">
+                <a href="/"><span class="flaticon-003-whatsapp"></span></a>
+                <a href="/"><span class="flaticon-011-instagram"></span></a>
+                <a href="/"><span class="flaticon-008-youtube"></span></a>
+                <a href="/"><span class="flaticon-001-facebook"></span></a>
+            </div>
+        </section>
+        <nav>
+            <section class="nav-logo-container">
+                <a href="./index.html"><img src="./assents/logoBlog.png" alt="Logo de mi blog"></a>
+            </section>
+            <section class="profile-link">
+                <a href="/">Sobre mí</a>
+            </section>
+        </nav>
+    </header>
+   <main>
+    <section class="section-gemelado-container">
+        <div class="info-container">
+            <div class="section-gemelado-img-container">
+                <img src="./assents/imagenGemeladoNeumatico.jpg" alt="Imagen de un camión minero">
+            </div>
+            <div class="section-gemelado-info-container">
+                <p>Información técnica para la medición de cocada o goma remanente para el correcto gemelado de neumáticos gigantes.</p>
+                <p>Información para la correcta política de rotaciones de neumáticos gigantes</p>
+                <p>La correcta aplicación de estas técnicas impactara positivamente en la vida útil de los neumáticos.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-rotation-container">
+        <h2>Medición de Neumático Gigante</h2>
+        <div class="rotation-info-container grid-container">
+            <div class="porcentaje-info-container">
+                <div class="info-container-example">
+                    <p><strong>Goma remanente es el promedio de dos medidas del neumático en milímetros.</strong></p>
+                    <p>Fórmula</p>
+                    <math class="formula">
+                        <mi>GR</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                            <mi>Medida Mayor</mi>
+                            <mo>+</mo>
+                            <mi>Medida Menor</mi>
+                            </mrow>   
+                            <mrow>
+                            <mn>2</mn>
+                            </mrow>
+                    </math>
+                    <p>Ejemplo:</p>
+                    <math>
+                        <mi>GR</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mn>51</mn>
+                                <mo>+</mo>
+                                <mn>35</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>2</mn>
+                            </mrow>
+                        </mfrac>
+                    </math>
+                    <p>Resultado</p>
+                    <math>
+                        <mi>GR</mi>
+                        <mo>=</mo>
+                        <mn>43 mm.</mn>
+                    </math>
+                </div>
+                <div class="info-container-example-img">
+                    <img src="./assents/imagenGemelado.png" alt="Imagen de medición de un neumático">
+                </div>
+            </div>
+            <div class="porcentaje-info-container">
+                <div class="info-container-example">
+                    <p><strong>Calculo del porcentaje de desgaste de la banda de rodado.</strong></p>
+                    <p>GO = Goma Original GR = Goma Remanente</p>
+                    <p>Fórmula</p>
+                    <math class="formula">
+                        <mi>% Desgaste</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>(</mi>
+                                <mi>GO</mi>
+                                <mo>-</mo>
+                                <mi>GR</mi>
+                                <mi>)</mi>
+                                <mo>*</mo>
+                                <mn>100</mn>
+                            </mrow>
+                            <mrow>
+                                <mi>GO</mi>
+                            </mrow>
+                        </mfrac>
+                    </math>
+                        <p>Ejemplo:</p>
+                        <p>GR = 43 mm</p>
+                        <p>GO = 87 mm</p>
+                    <math>
+                        <mi>% Desgaste</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mo>(</mo>
+                                <mn>87</mn>
+                                <mo>-</mo>
+                                <mn>43</mn>
+                                <mo>)</mo>
+                                <mo>*</mo>
+                                <mn>100</mn>
+                            </mrow>
+                            <mrow>
+                                <mn>87</mn>
+                            </mrow>
+                        </mfrac>
+                    </math>
+                    <br>
+                    <math>
+                        <mi>% Desgaste</mi>
+                        <mo>=</mo>
+                        <mn>50.57</mn>
+                    </math>
+                    <br>
+                    <math>
+                        <mi>% Desgaste</mi>
+                        <mo>=</mo>
+                        <mn>51</mn>
+                        <mo>%</mo>
+                    </math>
+                </div>
+                <div class="info-container-example-img">
+                    <img src="./assents/imagenGemelado.png" alt="Imagen de medición de un neumático">
+                </div>
+            </div>
+        </div>
+    </section>
+   </main>
+    <footer>
+        <p>© 2025 TIRE+. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
