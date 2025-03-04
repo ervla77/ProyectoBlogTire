@@ -47,8 +47,5 @@
         grid-column: 1;
         grid-row: 3;
     }
-    .porcentaje-info-container .info-container-example-img {
-        display: flex;
-        align-self: center;
-    }
+    
 }

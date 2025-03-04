@@ -276,7 +276,7 @@ footer p {
    width: 80%;
 }
 .section-rotation-container {
-    padding: 0 40px 50px;
+    padding: 0 30px 50px;
 }
 .section-rotation-container h2 {
     color: var(--blue-title);
@@ -289,7 +289,7 @@ footer p {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr;
-    margin-bottom: 40px;
+    margin-top: 50px;
     border: 2px solid var(--background-fondo);
     padding: 10px;
     background-color: var(--icons-color);
@@ -310,5 +310,4 @@ footer p {
 .info-container-example .formula {
     border: 2px solid var(--header-green);
     padding: 5px;
-    
 }
